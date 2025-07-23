@@ -1413,4 +1413,3 @@ def get_book_move(game):
     move_str = next_moves.split(' ')[0]
     move = [str2bb(move_str[:2]), str2bb(move_str[-2:])]
     return move
-
